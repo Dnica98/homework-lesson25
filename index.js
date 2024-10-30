@@ -10,7 +10,7 @@ const modalInput = document.getElementById('modalInput')
 const modalBtn = document.getElementById('modalBtn')
 const modal = document.getElementById('modal')
 const userName = document.getElementById('user')
-const closingBtn = document.querySelector('closingBtn')
+const closingBtn = document.getElementById('closingBtn')
 
 let count = JSON.parse(localStorage.getItem('count')) || 0;
 let step = JSON.parse(localStorage.getItem('step')) || 1;
