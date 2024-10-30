@@ -1,0 +1,38 @@
+body{
+    margin:0;
+}
+
+.modalWrapper{
+    background: rgba(32, 32, 32, .4);
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    place-items: center;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 28px;
+    background-color: white;
+}
+
+.showModal{
+    display: grid;
+}
+
+.closing{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    width: 275px;
+    height: 80px;
+}
+
